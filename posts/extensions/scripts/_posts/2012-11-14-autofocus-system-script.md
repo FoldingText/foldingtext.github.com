@@ -6,6 +6,8 @@ description: Use this script to implement a version of [Mark Forster's](http://m
 
 {{page.description}}
 
+Watch this [screencast](http://www.youtube.com/watch?v=_RGNV0W1CaE) to see how to use this script.
+
 The autofocus system is paper based, but it can be implemented on the computer by using a new heading for each _page_, as shown in this FoldingText document.
 
     # Autofocus.todo
@@ -17,9 +19,7 @@ The autofocus system is paper based, but it can be implemented on the computer b
     
     - item 2
 
-<iframe width="640" height="390" src="http://www.youtube.com/embed/_RGNV0W1CaE" frameborder="0" allowfullscreen></iframe>
-
-In this implementation an `Autofocus.todo` heading is created for each page. Use unorderd list syntax for items so that you can get a nice clickable checkbox to cross the items off the list. The process is the same as described on Mark's page, except:
+In this implementation an `Autofocus.todo` heading is created for each page. Use unordered list syntax for items so that you can get a nice clickable checkbox to cross the items off the list. The process is the same as described on Mark's page, except:
 
 1. Instead of using physical pages add your items to "Autofocus.todo" headings.
 
