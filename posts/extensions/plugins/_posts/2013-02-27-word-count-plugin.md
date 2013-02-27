@@ -6,7 +6,7 @@ description: Use this plugin to display live word and character counts as you ed
 
 {{page.description}}
 
-This script is useful if you are trying to hit a specific word or character count when writing your document. After installing the plugin you can display your word count by:
+This plugin is useful if you are trying to hit a specific word or character count when writing your document. After installing the plugin you can display your word count by:
 
 1. Enter Command Mode (View > Command Mode)
 2. Type the "word count" command to show the live counts.
