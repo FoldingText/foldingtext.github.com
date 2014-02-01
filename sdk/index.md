@@ -9,8 +9,8 @@ Use FoldingText's software development kit (SDK) to create scripts, themes, and 
 
 You can extend FoldingText in three ways:
 
-1. Use [AppleScript](scripts) to automate FoldingText and integrate with other AppleScript enabled apps.
+1. [Create scripts](scripts) to automate FoldingText and integrate with other AppleScript enabled apps.
 
-2. Use [CSS/LESS](themes) to create FoldingText themes. Change colors, fonts, and other aspects of how FoldingText looks.
+2. [Create themes](themes) to change colors, fonts, and other aspects of how FoldingText looks.
 
-3. Use [JavaScript plugins](plugins) to integrate directly with FoldingText's code and add new features.
+3. [Create plugins](plugins) to integrate directly with FoldingText's code and add new features.
