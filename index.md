@@ -21,6 +21,6 @@ Plain text productivity for geeks. As you type, FoldingText auto-formats your do
 
 ## Surprisingly Adept
 
-- Capture your thoughts
-- Write clear, focused documents
-- Organize your work, to-dos, and more
+- Live formatting
+- Scripts, themes, and plugins
+- Plain text productivity platform

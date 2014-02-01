@@ -21,7 +21,7 @@ description: Highlights include Command mode and Javascript plugin API.
 - Fixed performance bug when many lines are folded.
 - Fixed potential lost changes when editing after autosave.
 - Fixed losing focus when zooming in and out.
-- Fixed crash when ordered list is followed by unordered '*' list.
+- Fixed crash when ordered list is followed by unordered '\*' list.
 - Fixed crash when jumping to next spelling error when folded.
 - Fixed crash when dragging and dropping text.
 - Fixed crash when Moving Section Left when contained empty lines.
