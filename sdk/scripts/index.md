@@ -8,9 +8,9 @@ Use AppleScript to automate FoldingText and integrate with other AppleScript ena
 
 ## About
 
-The AppleScript API simpily bridges to the plugin API.
+The AppleScript API simply bridges to the plugin API.
 
-This is a different desing then in FoldingText 1.1. There's no longer a separate AppleScript API for FoldingText. Instead there's just the "evaluate" command witch bridges between AppleScript and FoldingText's JavaScript environment.
+This is a different design then in FoldingText 1.1. There's no longer a separate AppleScript API for FoldingText. Instead there's just the "evaluate" command witch bridges between AppleScript and FoldingText's JavaScript environment.
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ Open "AppleScript Editor" and run:
 ```applescript
 set s to "
 function(editor, option) {
-	return editor.getSelectedText() + option;
+	return editor.selectedText() + option;
 }"
 
 tell front document of application "FoldingText"
@@ -29,7 +29,7 @@ end tell
 
 The script result is the selected text with "!" appended.
 
-The "evaluate" command is a bridge from AppleScript to FoldingText's internal [JavaScript plugin API](../plugins). You pass in a JavaScript function and optional paramaters over the bridge. That function is evaluated within FoldingText. The results are sent back to AppleScript.
+The "evaluate" command is a bridge from AppleScript to FoldingText's internal [JavaScript plugin API](../plugins). You pass in a JavaScript function and optional parameters over the bridge. That function is evaluated within FoldingText. The results are sent back to AppleScript.
 
 To create more complex scripts:
 

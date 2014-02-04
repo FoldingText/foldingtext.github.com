@@ -14,7 +14,7 @@ The JavaScript plugin API is open and messy.
 
 FoldingText's entire JavaScript codebase is available to use as a reference (not open source) when developing your extensions. You have the same view of the system that I have and your extensions can use all the same API's.
 
-That gives you a lot of power! But there is limited documentation and no backward compatibility guarenteess. I'll do my best to keep things stable (write specs for you plugin to help), but if you are looking for lots of documentation and backward compatibility promises I would recommend avoiding plugin development.
+That gives you a lot of power! But there is limited documentation and no backward compatibility guarantees. I'll do my best to keep things stable (write specs for you plugin to help), but if you are looking for lots of documentation and backward compatibility promises I would recommend avoiding plugin development.
 
 ## Getting Started
 
