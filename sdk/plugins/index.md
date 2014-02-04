@@ -10,7 +10,7 @@ Use plugins to integrate directly with FoldingText's code and add new features. 
 
 ## About
 
-The plugin API is wide open and messy.
+The JavaScript plugin API is open and messy.
 
 FoldingText's entire JavaScript codebase is available to use as a reference (not open source) when developing your extensions. You have the same view of the system that I have and your extensions can use all the same API's.
 
@@ -47,13 +47,13 @@ To create more complex plugins:
 
 3. Develop using the SDK Runner for live refresh, to set breakpoints, and to step into FoldingText's uncompressed code.
 
-4. Click the SDK Runner's "SDK Sources" link to browse FoldingText's uncompressed source code. See how the internals work, and look for places where you plugin code can join the fun.
+4. Click the SDK Runner's "SDK Sources" link to browse FoldingText's uncompressed source code. See how the internals work, and look for places where your plugin can join the fun.
 
 5. Ask questions in the [Extensions](http://support.foldingtext.com/discussions/extensions) support forum.
 
 ## Open and Messy
 
-FoldingText plugin development is wide open and messy. The entire codebase is exposed to plugins, you have the same view of the system that I do. There is limited documentation, lots of mess, and no backward compatibility promises.
+FoldingText plugin development is open and messy. The entire codebase is exposed to plugins, you have the same view of the system that I do. There is limited documentation, lots of mess, and no backward compatibility promises.
 
 How can this work?
 

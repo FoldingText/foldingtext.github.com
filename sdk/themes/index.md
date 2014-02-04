@@ -10,7 +10,7 @@ Use themes to change colors, fonts, and other aspects of how FoldingText looks. 
 
 ## About
 
-The theme API is wide open and messy.
+The theme API is open and messy.
 
 FoldingText's editor is implemented in JavaScript/HTML/DOM. Your themes can style any aspect of the DOM that they wish. This gives you a lot of power, but there's limited documentation and no backward compatibility guarantees other then me doing my best to keep existing themes.
 
