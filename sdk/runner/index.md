@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SDK Runner (FoldingText 1.3 Dev Only)
+title: SDK Runner (FoldingText 2.0 Dev Only)
 ---
 Use the SDK (Help > SDK Runner) while developing your scripts and extensions for these benefits:
 

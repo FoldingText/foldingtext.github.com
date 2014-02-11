@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create Scripts (FoldingText 1.3 Dev Only)
+title: Create Scripts (FoldingText 2.0 Dev Only)
 ---
 Use AppleScript to automate FoldingText and integrate with other AppleScript enabled apps.
 

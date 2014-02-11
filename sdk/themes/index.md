@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create Themes (FoldingText 1.3 Dev Only)
+title: Create Themes (FoldingText 2.0 Dev Only)
 ---
 Use themes to change colors, fonts, and other aspects of how FoldingText looks. You should first understand:
 

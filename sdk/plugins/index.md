@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Create Plugins (FoldingText 1.3 Dev Only)
+title: Create Plugins (FoldingText 2.0 Dev Only)
 ---
 Use plugins to integrate directly with FoldingText's code and add new features. You should first understand:
 
