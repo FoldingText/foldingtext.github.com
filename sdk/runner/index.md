@@ -2,9 +2,9 @@
 layout: default
 title: SDK Runner (FoldingText 1.3 Dev Only)
 ---
-Use the SDK (Help > SDK Runner) while developing and debugging your extensions for these benefits:
+Use the SDK (Help > SDK Runner) while developing your scripts and extensions for these benefits:
 
-1. Open a web "inspector" for viewing the DOM and debugging your JavaScript plugins and LESS/CSS themes.
+1. Open a web "inspector" for viewing the DOM and debugging your AppleScripts, plugins and LESS/CSS themes.
 
 2. Uses uncompressed JavaScript sources so you figure out what's really going on.
 
