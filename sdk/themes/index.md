@@ -32,6 +32,6 @@ To create more complex themes:
 
 2. Click the SDK Runner's "Run Editor" link and then click the "Inspector" toolbar item to view the editor's HTML DOM structure so you know what you can style.
 
-3. Click the SDK Runner's "SDK Sources" link to reveal the sources folder. And then browse to sources > "foldingtext.less.template" to view the default styling rules.
+3. Click the SDK Runner's "SDK Sources" link to reveal the "sdk" folder. And then look at the ".less" files in the "sources" folder to see the default style rules that are used.
 
 4. Ask questions in the [Extensions](http://support.foldingtext.com/discussions/extensions) support forum.
