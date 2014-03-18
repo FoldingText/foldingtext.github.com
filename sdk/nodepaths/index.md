@@ -96,7 +96,11 @@ The above query returns the entire contents "Inbox" combined with any line anywh
 
 ## Predicates
 
-The text between each path axis is the predicate that's used to test against each node along that axis. The basic form of a node path predicate is:
+The text between each path axis is the predicate. This predicate is used to test against each node along that path axis. If no axis is specified then the default "child" axis is used.
+
+The following examples only show predicate text. If you use them directly the default "child" axis will be used. Often that's not what you want, to match agains all nodes in your document you should put "//" at the start.
+
+The basic form of a node path predicate is:
 
     @<attribute> <relation> <search term>
 
@@ -199,7 +203,7 @@ Most of the time you can just type the values that you are looking for and it wo
 
 Unless the value contains a keyword you do not need to enclose it in quotes. This is true even if the value has multiple words. For example this is perfectly valid:
 
-    line contains my search terms and not @done
+    @line contains my search terms and not @done
 
 This matches nodes that have the text "my search terms" and are not tagged with "@done".
 
