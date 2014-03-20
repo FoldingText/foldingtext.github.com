@@ -43,7 +43,7 @@ To create more complex plugins:
 
 1. Read through the rest of this document for a high level overview of FoldingText's code.
 
-2. Learn from the existing [plugins](/posts/extensions/plugins/) and use them as starting points for your own solutions.
+2. Learn from the existing [plugins](https://github.com/FoldingText/plugins/tree/FoldingText-Dev) and use them as starting points for your own solutions.
 
 3. Develop using the SDK Runner for live refresh, to set breakpoints, and to step into FoldingText's uncompressed code.
 
