@@ -10,10 +10,12 @@
     <div class="container">
 		<header>
 			{% if page.home %}
-			
-			<h1><a class="fancyvideo5" href="/static/gallery/screencastposter.png"><img src="/static/logo.svg" height="64px"/>
-			<span>FoldingText – Plain text productivity</span></a></h1>
-			
+
+			<h1>
+				<img src="/static/logo.svg" height="69px"/>
+				<span>FoldingText – Plain text productivity</span>
+			</h1>
+
 			{% else %}
 
 			{% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}

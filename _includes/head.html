@@ -49,7 +49,7 @@
 		var fancybox = $(".fancybox").fancybox({
 			padding : 5,
 			margin: 50,
-			maxHeight: 550,
+			maxHeight: 600,
 			loop : false,
 		});
 		var hash = window.location.hash;
@@ -69,20 +69,10 @@
 			'autoDimensions': false,
 			'content': '&nbsp;',
 			'afterLoad': function() {
-				if ($.browser.mozilla) {
-					$('.fancybox-inner')
-					.html('<video poster="/static/gallery/screencastposter.png" id="screencast" width="960" height="600" controls><source src="/static/gallery/screencast.webm" type="video/webm">your browser does not support the HTML 5 video tag</video>')
-					.css({'overflow':'hidden'});
-				} else if ($.browser.webkit) {
-					$('.fancybox-inner')
-					.html('<video poster="/static/gallery/screencastposter.png" id="screencast" width="960" height="600" controls><source src="/static/gallery/screencast.mp4" type="video/mp4">your browser does not support the HTML 5 video tag</video>')
-					.css({'overflow':'hidden'});
-				} else {
-					$('.fancybox-inner')
-					.html('<video poster="/static/gallery/screencastposter.png" id="screencast" width="960" height="600" controls><source src="/static/gallery/screencast.mp4" type="video/mp4"><source src="/static/gallery/screencast.ogv" type="video/ogg"><source src="/static/gallery/screencast.webm" type="video/webm">your browser does not support the HTML 5 video tag</video>')
-					.css({'overflow':'hidden'});
-				}
-				
+				$('.fancybox-inner')
+				.html('<video poster="/static/gallery/screencastposter.png" id="screencast" width="960" height="600" autoplay preload="auto" controls><source src="/static/gallery/screencast.mp4" type="video/mp4"><source src="/static/gallery/screencast.webm" type="video/webm">your browser does not support the HTML 5 video tag</video>')
+				.css({'overflow':'hidden'});
+
 				var screencast = document.getElementById('screencast');
 				if (screencast) {
 					screencast.play();
