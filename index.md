@@ -2,7 +2,7 @@
 home: true
 layout: default
 title: Plain text productivity for Mac users
-description: Plain text productivity for Mac users. As you type, FoldingText auto-formats your document into sections, lists, and paragraphs. Fold sections to see the big picture. Focus to see the details.
+description: For Mac users who love plain text. FoldingText is the markdown text editor with productivity features. Unlike other editors, FoldingText does outlining, todo lists, and more.
 ---
 
 <blockquote id="leadquote"><span class="quote">An incredibly easy-to-use combination of plain text based tools.</span><small class="author"><a href="http://mac.appstorm.net/reviews/productivity-review/foldingtext-a-swiss-army-knife-for-plain-text-lovers">Pierre Wizla</a></small></blockquote>
@@ -36,7 +36,7 @@ description: Plain text productivity for Mac users. As you type, FoldingText aut
 </table>
 </nav>
 
-Plain text productivity for Mac users. As you type, FoldingText auto-formats your document into sections, lists, and paragraphs. Fold sections to see the big picture. Focus to see the details.
+For Mac users who love plain text. FoldingText is the markdown text editor with productivity features. Unlike other editors, FoldingText does outlining, todo lists, and more.
 
 ## Simple
 
