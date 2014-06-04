@@ -263,3 +263,19 @@ footer h4 {
 	max-height:20rem;
 	background:white !important;
 }
+
+.mailinglistform {
+	padding: 1em;
+	border: 1px solid rgb(80%, 80%, 80%);;
+	background: rgb(93%, 93%, 93%);
+}
+
+.mailinglistform input[type="text"] {
+	width: 50%;
+	font-size: 1.0em;
+}
+
+.mailinglistform button {
+	margin-top: 0.5em;
+	font-size: 1.0em;
+}

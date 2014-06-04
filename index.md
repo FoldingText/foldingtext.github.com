@@ -23,7 +23,7 @@ description: For Mac users who love plain text. FoldingText is the markdown text
 		<td>
 			<a href="https://s3.amazonaws.com/foldingtext/FoldingText.dmg">
 				<img src="/static/download.svg"><br />
-				Download App
+				Free Download
 			</a>
 		</td>
 		<td>
