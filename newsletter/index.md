@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Mailing List
+title: Newsletter
 ---
 
-This mailing list is a low traffic way to learn about what's new in the world of FoldingText and Hog Bay Software.
+This newsletter is a low traffic way to learn about what's new in the world of FoldingText and Hog Bay Software.
 
 <form class="mailinglistform" action="http://sendy.hogbaysoftware.com/subscribe" method="POST" accept-charset="utf-8">
 	<label for="name">Name</label><br/>
