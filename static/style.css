@@ -227,6 +227,22 @@ footer h4 {
 	}
 }
 
+.paddle_button {
+	border-radius: 0.5rem;
+	margin-top:0.5rem;
+	border: 0 none;
+	color: rgb(97%,97%,97%);
+	background: none repeat scroll 0 0 rgb(20%,20%,20%);
+	padding: 0.5rem 1rem;
+	font-weight: normal;
+	font-size: 1.6rem;
+	line-height: 1.45;
+	cursor: pointer;
+	display: inline-block;
+	text-transform: none;
+	width: auto;
+}
+
 .logo {
 	margin-left:-60px;
 }
