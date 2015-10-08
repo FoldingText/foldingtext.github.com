@@ -33,4 +33,4 @@ description: Highlights include new calc and stopwatch modes.
 - Added MultiMarkdown processor for Copy as (RTF, HTML, LaTex) conversions. End results is the Edit > Copy as options all work much better now
 - Fixed escape key removes multiple cursors if used instead of doing autocomplete
 
-Going forward Mutahhir Ali, who also worked with me to create FoldingText, will maintain FoldingText focusing on bug fixes and keeping it working into the future.
+Going forward Mutahhir Ali, who also worked with me to create FoldingText, will maintain FoldingText. Mutahhir will focus on bug fixes and keeping FoldingText working into the future.
