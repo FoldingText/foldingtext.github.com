@@ -12,6 +12,6 @@ This newsletter is a low traffic way to learn about what's new in the world of F
 	<label for="email">Email</label><br/>
 	<input type="text" name="email" id="email"/>
 	<br/>
-	<input type="hidden" name="list" value="6SFTN90s77eg5yT2gXC2892w"/>
+	<input type="hidden" name="list" value="pvdM68QFom4m2763xCFJUOrw"/>
 	<button type="submit" name="submit" id="submit">Subscribe</button>
 </form>
