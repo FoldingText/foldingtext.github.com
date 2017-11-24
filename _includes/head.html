@@ -31,7 +31,12 @@
 <link rel="stylesheet" href="/static/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.6" type="text/css" media="screen" />
 <script type="text/javascript" src="/static/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.6"></script>
 
-<script async src="https://paddle.s3.amazonaws.com/checkout/checkout.js"></script>
+<script src="https://cdn.paddle.com/paddle/paddle.js"></script>
+<script type="text/javascript">
+	Paddle.Setup({
+		vendor: 366
+	});
+</script>
 
 <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -90,10 +95,10 @@
 				$(".fancybox-inner").empty();
 			}
 		});
-		
+
 		var hash = window.location.hash;
 		if (hash === '#watchmovie') {
-			fancybox.trigger("click");	
+			fancybox.trigger("click");
 		}
-	});	
+	});
 </script>
