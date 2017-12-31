@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "The Folding Text Story"
+date: 2017-12-31 12:00
+category: team
 description: How Folding Text came to be
 ---
 

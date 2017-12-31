@@ -5,7 +5,8 @@ title: Blog
 
 {% for post in site.posts %}
 
-## [**{{ post.title }}**]({{ post.url }})
+# [**{{ post.title }}**]({{ post.url }})
+_{{ post.date }}_
 
 {{ post.description | strip_html }}
 
