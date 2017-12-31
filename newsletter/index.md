@@ -3,7 +3,7 @@ layout: default
 title: Newsletter
 ---
 
-This newsletter is a low traffic way to learn about what's new in the world of FoldingText and Hog Bay Software.
+Be the first to learn about new features in Folding Text with our email newsletter.
 
 <form class="mailinglistform" action="http://sendy.hogbaysoftware.com/subscribe" method="POST" accept-charset="utf-8">
 	<label for="name">Name</label><br/>
