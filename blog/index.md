@@ -8,6 +8,6 @@ title: Blog
 # [**{{ post.title }}**]({{ post.url }})
 _{{ post.date }}_
 
-{{ post.description | strip_html }}
+{{ post.content }}
 
 {% endfor %}
