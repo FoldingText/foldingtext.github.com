@@ -3,7 +3,7 @@ layout: default
 title: Blog
 ---
 
-{% for post in site.posts %}
+{% for post in blog.posts %}
 
 ## [**{{ post.title }}**]({{ post.url }})
 
