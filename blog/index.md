@@ -6,7 +6,7 @@ title: Blog
 {% for post in site.posts %}
 
 ## [**{{ post.title }}**]({{ post.url }})
-_{{ post.date | date: '%B %d, %' }}_
+_{{ post.date }}_
 
 {{ post.content }}
 
