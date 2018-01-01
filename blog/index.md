@@ -11,3 +11,5 @@ _{{ post.date | date: "%B %-d, %Y" }}_
 {{ post.content }}
 
 ## ***
+
+{% endfor %}
