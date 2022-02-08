@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="frequentlyaskedquestions">Frequently Asked Questions</h1>
+
+<p>FoldingText is an extensible markdown text editor with productivity features. It’s most easily understood by watching this <a href="https://foldingtext.com/#watchmovie">Demo Movie</a></p>
+
+<ul>
+<li>Markdown Editor</li>
+<li>Extensible with themes, scripts and plugins</li>
+<li>Outlining, todos, timers for productivity</li>
+</ul>
+
+<h2 id="howcanicreatemyownthemesscriptsandplugins">How can I create my own themes, scripts and plugins?</h2>
+
+<p>To create your own themes, scripts, and plugins open FoldingText’s Help -&gt; Software Development Kit menu item then from there you can access the SDK documentation.</p>
+
+<h2 id="howtoinstallatheme">How to install a Theme?</h2>
+
+<p>Themes are made from CSS/LESS rules that you put in your user.less file. To use a theme open FoldingText based app and:</p>
+
+<ol>
+<li>Choose the File &gt; Open Application Folder menu item.</li>
+<li>Inside that folder open your existing user.less text file, or create a new one if none exists.</li>
+<li>Paste in the theme extensions CSS/LESS rules and save.</li>
+<li>Create a new document to see the theme applied.</li>
+</ol>
+
+<h2 id="howtoinstallascript">How to install a Script?</h2>
+
+<p>Scripts are made of AppleScript code that you paste into the “AppleScript Editor” application to run</p>
+
+<p><strong>To try a script:</strong></p>
+
+<ol>
+<li>Create a new test document in FoldingText.</li>
+<li>Open the “AppleScript Editor” app and paste in the script.</li>
+<li>Then press the green “Run” button to run the script.</li>
+</ol>
+
+<p>If you decide to keep the script you should install it so that it’s easier to run.</p>
+
+<p><strong>To install a script:</strong></p>
+
+<ol>
+<li> Open the &#8220;AppleScript Editor&#8221; apps preferences and make sure that &#8220;Show Script menu in menu bar&#8221; is checked.</li>
+<li> Click on that item in your menu bar and choose “Open Scripts Folder &gt; Open User Scripts Folder”.</li>
+<li> Save the script that you were testing into that folder. Make sure to save using the “Script” format, it’s faster and some scripts wont work properly unless they are saved in “Script” format.</li>
+</ol>
+
+<p>Once you’ve done this the script will be listed in the Script menu in your menu bar. To run the script just select it from that menu. You can also use tools such as <a href="https://www.red-sweater.com/fastscripts/">FastScripts</a> and <a href="https://www.keyboardmaestro.com/main/">Keyboard Maestro</a> to setup keyboard shortcuts to launch scripts.</p>
+
+<h2 id="howtoinstallaplugin">How to install a plugin?</h2>
+
+<pre><code>Plugins are folders that end with the .ftplugin file extension and contain JavaScript and other resources.
+
+To install a plugin put it into FoldingText’s Plug-In’s folder:
+</code></pre>
+
+<ol>
+<li> Choose the File &gt; Open Application Folder menu item and then locate the Plug-Ins folder.</li>
+<li> Copy the plugin (which is a folder ending with .ftplugin) into the Plug-Ins folder.</li>
+<li> Verify that a plugin is installed by choosing the FoldingText -&gt; Plugin Manager menu item and make sure the plugin is install and has no errors. The plugin functionality should be available in any new documents that you open after installing the plugin.</li>
+</ol>
+
+<h2 id="whatpartsofmulti-markdownsyntaxdoesfoldingtextsupport">What parts of Multi-markdown syntax does FoldingText support?</h2>
+
+<p>First of all FoldingText is a plain-text editor, it can open any plain text file (of reasonable size) no matter what the formatting.</p>
+
+<p>So by “support” I don’t mean opening and editing (it can do that with any plain text file) I mean that FoldingText will recognize the given syntax and highlight it to make it easier to read. Also note that FoldingText doesn’t have any special export of multi-markdown to other formats. For that you’d need to use <a href="http://multimarkdown.com/">Multimarkdown Composer</a>, though you could of course still use FoldingText to edit the file.</p>
+
+<p>So with that definition of “supports”, what parts of Multi-markdown syntax does FoldingText support and what parts does it not support?</p>
+
+<p>Syntax highlighting supported:</p>
+
+<ul>
+<li>definition lists</li>
+</ul>
+
+<p>Syntax highlighting partially supported</p>
+
+<ul>
+<li>footnotes</li>
+<li>image attributes</li>
+<li>citations and bibliography (works best in LaTeX using BibTeX)</li>
+</ul>
+
+<p>Syntax highlighting unsupported:</p>
+
+<ul>
+<li>tables</li>
+<li>math support</li>
+<li>table and image captions</li>
+<li>document metadata(e.g. title, author, etc)</li>
+</ul>
+
+<p>In the release notes for FoldingText 2.0 I said supports “large parts of MultiMarkdown”. I’m not sure how I started thinking that way, but it’s not true. “Some” parts is more correct.</p>
+
+<h2 id="howtochangekeybindings">How to change keybindings?</h2>
+
+<h3 id="foldingtexthastwokindsofkeybindings">FoldingText has two kinds of keybindings</h3>
+
+<ol>
+<li>The standard “OS X menu item” shortcuts. These can be changed in System Preferences as <a href="https://support.apple.com/kb/ph3957">Described Here</a></li>
+<li>Internally defined keybindings. These take precedent over the “OS X menu item” shortcuts, and can be changed with a plugin.</li>
+</ol>
+
+<p>To change an internal keybinding you need to create a plugin that adds the new binding. For example lets say you want to rebind the Home and End keys to move to the start and end of the current line instead of to scroll to the top or bottom of your document, which is the default behavior. To do this you will:</p>
+
+<ol>
+<li><p><a href="#How-can-I-create-my-own-themes,-scripts">Create a plugin</a> Here is <a href="https://github.com/FoldingText/plugins/tree/master/keybindings.ftplugin">an example plugin</a> that shows in particular how to add new keybindings.</p></li>
+<li><p>Modify that plugin to override the bindings you are interested in. In this case (changing Home and End behavior) the plugin code should be modified to this:</p></li>
+</ol>
+
+<pre><code class="javascript">    editor.addKeyMap({
+        'Home' : 'moveToBeginningOfLine',
+        'End' : 'moveToEndOfLine'
+    });
+
+</code></pre>
+
+<p>Modifiers can be combined with the bound keys with:</p>
+
+<pre><code class="shell">   Shift-, Cmd-, Ctrl-, and Alt- (in that order)
+</code></pre>
+
+<ol>
+<li>Then <a href="#how-to-install-a-plugin">install the plugin</a> if you haven&#8217;t already done so. And create a new document, the bindings should be active in the new document.</li>
+</ol>
+
+<h2 id="exploringfoldingtext’sinternalkeybindings">Exploring FoldingText’s internal keybindings</h2>
+
+<p>If you are modifying keybindings it can be very useful to view FoldingText’s default keybindings so you know what you are overriding. It’s possible, but you’ll need to do some digging.</p>
+
+<p>FoldingText ships with most of it’s own source code embedded inside the application bundle (not open source, but shared source so you can learn from it). Anyway to see FoldingText’s existing keybindings:</p>
+
+<ol>
+<li>Right click on the FoldingText.app bundle and choose “Show Package Contents”.</li>
+<li>Then browse into that folder and find the keybindings file at FoldingText.app/Contents/Resources/dist/sdk/sources/ft/editor/keybindings.js.</li>
+<li>Open that file to see FoldingText’s default text editing bindings. (There are a few others spread out through the code (you can search for addKeyMap), but that’s the vast majority of them.</li>
+</ol>
+
+<h3 id="howtochangethedefaultfileextension">How to change the default file extension</h3>
+
+<ol>
+<li>You need to open “Terminal” app paste in something like this:</li>
+</ol>
+
+<p><code>defaults write com.doubledogsoftware.FoldingText DefaultFileExtension [newextension]</code></p>
+
+<p>That’s setting a user default for the application with the identifier: com.doubledogsoftware.FoldingText.</p>
+
+<h3 id="willfoldingtextbeavailbleonotherplatforms">Will FoldingText be availble on other platforms?</h3>
+
+<p>My focus is on macOS and iPad for the foreseeable future.</p>
+
+</body>
+</html>
+

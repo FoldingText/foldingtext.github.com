@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13db2f6-3a37-4f30-af4b-5b02c1e0ef75" name="Changes" comment="Change the support link in the footer to support.foldingtext.com" />
+    <list default="true" id="e13db2f6-3a37-4f30-af4b-5b02c1e0ef75" name="Changes" comment="Change the support link in the footer to support.foldingtext.com">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.markdownlint.jsonc" beforeDir="false" afterPath="$PROJECT_DIR$/build/.markdownlint.jsonc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mardownlint.jsonc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.codekit3" beforeDir="false" afterPath="$PROJECT_DIR$/config.codekit3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +31,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="216msCcv4wc6gSeYB8kKKYBvcbF" />
   <component name="ProjectViewState">
@@ -61,6 +69,7 @@
       <workItem from="1637766429304" duration="1388000" />
       <workItem from="1638563049493" duration="1921000" />
       <workItem from="1638565503696" duration="1744000" />
+      <workItem from="1639106874335" duration="4368000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the support URL to support.doubledogsoftware.com">
       <created>1637766586164</created>
@@ -148,7 +157,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated the support URL to support.doubledogsoftware.com" />

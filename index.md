@@ -21,9 +21,9 @@ description: For Mac users who love plain text. FoldingText is the markdown text
                 </a>
             </td>
             <td>
-                <a href="https://reg.doubledogsoftware.com/foldingtext/updates/FoldingText.dmg">
+                <a href="#">
                     <img src="/static/download.svg"><br />
-                        Free Download
+                        Version 3.0 Comming soon.
                 </a>
             </td>
             <td>
